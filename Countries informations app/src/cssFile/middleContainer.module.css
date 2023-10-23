@@ -1,0 +1,14 @@
+.middleContainer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:650px) {
+    .middleContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+}

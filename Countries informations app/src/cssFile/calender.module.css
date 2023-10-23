@@ -1,0 +1,52 @@
+ .timeAndWeather{
+    width: 46%;
+    background: rgba(250, 248, 248, 0.055);
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.103);
+    position: relative;
+} 
+.weather{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    color: aliceblue;
+    font-size: 100px;
+    z-index: 10;
+}
+.sun{
+    position: absolute;
+    font-size: 60px;
+    color: rgb(255, 123, 0);
+    top: 30px;
+    left: 110px;
+}
+.weatherdata{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    right: 10px;
+    color: aliceblue;
+    flex-direction: column;
+}
+.weatherdata span{
+    margin: 10px;
+}
+.weatherName{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+.weatherName p{
+    font-size: 13px;
+}
+@media (max-width:650px) {
+    .timeAndWeather{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

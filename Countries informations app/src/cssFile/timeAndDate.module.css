@@ -1,0 +1,31 @@
+.dateAndCalender {
+    width: 46%;
+    background: rgba(250, 248, 248, 0.055);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.103);
+    position: relative;
+}
+.dateAndCalender p{
+    font-size: 13px;
+    color: aliceblue;
+    margin-top: 10px;
+}
+.time h1{
+    font-size: 70px;
+    color: aliceblue;
+}
+.timeButtom{
+    font-size: 30px;
+    color: aliceblue;
+}
+@media (max-width:650px) {
+    .dateAndCalender {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

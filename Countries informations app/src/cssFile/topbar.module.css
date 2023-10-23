@@ -1,0 +1,40 @@
+.topContainer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topContainer h1{
+    font-size: 16px;
+    color: aliceblue;
+}
+.search input{
+    width: 400px;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    outline: o;
+    background: transparent;
+    border-radius: 25px;
+}
+.topContainerRight{
+    color: aliceblue;
+}
+.topContainerRight a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+@media (max-width:950px) {
+    .search input{
+        width: 300px;
+    }
+}
+@media (max-width:650px) {
+    .search{
+        display: none;
+    }
+}

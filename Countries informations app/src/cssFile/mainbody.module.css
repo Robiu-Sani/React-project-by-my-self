@@ -1,0 +1,27 @@
+.mainContainer{
+    position: absolute;
+    right: 0;
+    margin:30px 10px 0px 10px;
+    background: rgba(250, 251, 252, 0.041);
+    border-radius: 15px;
+    border: 1px solid rgba(248, 249, 250, 0.055);
+    width: 78%;
+    height: 90%;
+    overflow: hidden;
+}
+@media (max-width:950px) {
+    .mainContainer{
+        width: 90%;
+    }
+}
+@media (max-width:650px) {
+    .mainContainer{
+        position: absolute;
+        top: 120px;
+        width: 100%;
+        margin: 0px;
+        border-radius: 0;
+        background: rgb(56, 52, 52);
+        overflow: scroll;
+    }
+}
