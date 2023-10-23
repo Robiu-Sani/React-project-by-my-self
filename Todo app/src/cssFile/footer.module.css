@@ -1,0 +1,11 @@
+.footer{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(23, 73, 102),rgb(22, 37, 54));
+}
+.footer h2{
+    font-size: 18px;
+    color: rgb(25, 128, 218);
+}

@@ -1,0 +1,61 @@
+.TodoItem{
+    transition: .5s;
+    background: rgba(98, 143, 228, 0.432);
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid rgb(0, 195, 255);
+    box-shadow: -4px -4px 6px rgb(4, 50, 68);
+}
+.TodoItem:hover{
+    transform: scale(1.1);
+}
+.todotitle{
+    color: rgb(3, 14, 49);
+    font-size: 18px;
+    margin: 6px;
+}
+.center{
+    padding: 10px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.tododescription{
+    color: rgb(2, 29, 53);
+    font-size: 14px;
+    text-align: justify;
+}
+.datetime{
+    display: flex;
+    border-bottom: 1px solid rgb(0, 195, 255);
+    padding: 10px 15px 10px 10px;
+    justify-content: space-between;
+    font-size: 13px;
+    color: aliceblue;
+}
+.buttoniv{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(0, 195, 255);
+
+}
+button{
+    padding: 5px;
+    background: rgba(42, 98, 202, 0.432);
+    width: 100px;
+    font-size: 14px;
+    color: rgb(155, 191, 223);
+    box-shadow: -2px -2px 3px rgb(109, 112, 116);
+    border-radius: 5px;
+    border: 1px solid rgb(128, 186, 236);
+}
+button:active{
+    transform: scale(0.95);
+}
+button i{
+    color: red;
+}
